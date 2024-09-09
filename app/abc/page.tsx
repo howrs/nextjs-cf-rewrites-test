@@ -7,7 +7,7 @@ export default function Page() {
   let query = useParams();
   // let a = useSearchParams();
 
-  console.log(query);
+  console.log(pathname);
 
   return <div>{pathname}</div>;
 }
