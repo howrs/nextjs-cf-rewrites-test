@@ -9,5 +9,5 @@ export default function Page() {
 
   console.log(pathname);
 
-  return <div>{pathname}</div>;
+  return <div suppressHydrationWarning>{pathname}</div>;
 }
